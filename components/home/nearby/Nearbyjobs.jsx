@@ -38,8 +38,8 @@ const NearByjobs = () => {
           //   keyExtractor={item => item?.job_id}
           //   contentContainerStyle={{ rowGap: SIZES.medium}}
           // />
-          data.map((item) => (
-            <NearByJobCard item={item} handleCardPress={() => router.push(`job-details/${item.job_id}`)}/>
+          data.map((item, index) => (
+            <NearByJobCard key={item + index} item={item} handleCardPress={() => router.push(`job-details/${item.job_id}`)}/>
           ))
         }
       </View>

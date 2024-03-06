@@ -38,6 +38,7 @@ const JobDetails = () => {
     <SafeAreaView style={{flex: 1, backgroundColor: COLORS.lightWhite}}>
         <Stack.Screen
             options={{
+                statusBarColor: '#333',
                 headerTitle: '',
                 headerShadowVisible: false,
                 headerStyle: { backgroundColor: COLORS.lightWhite},

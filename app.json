@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FAFAFC"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -43,6 +43,12 @@
         "projectId": "4d96378e-b57e-49a6-bccb-d45f52e51f9d"
       }
     },
-    "owner": "arieful"
+    "owner": "arieful",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4d96378e-b57e-49a6-bccb-d45f52e51f9d"
+    }
   }
 }
